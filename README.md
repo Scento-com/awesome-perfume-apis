@@ -24,7 +24,7 @@ Sections and the entries inside them are sorted alphabetically. A product that o
 - [Noteboxd](https://developers.noteboxd.com) - REST API (OpenAPI 3.2) with pyramids, accords, perfumers, reviews and wearing stats; account and Bearer key, free tier of 50 calls a day, pay-as-you-go above.
 - [Parfum Bible](https://parfumbible.com/developers/) - Read-only REST API (OpenAPI 3.1) for catalogue search, details, comparison and verified retailer offers; no key, no account; offers default to the US.
 - [ParfumDB](https://parfumdb.net) - Metered API and downloadable files derived from Parfumo, with GTIN-13 and review data; free sample, purchase required for full data; 236,000+ perfumes claimed.
-- [Scento Perfume API](https://www.scento.com/developers) - REST API described in OpenAPI 3.1 (12 read-only answers); no key, no account, open CORS; 700+ perfumes, 400+ raw materials, 120+ houses; code samples in [Scento-com/perfume-api](https://github.com/Scento-com/perfume-api).
+- [Scento Perfume API](https://www.scento.com/developers) - REST API described in OpenAPI 3.1 (12 read-only answers); no key, no account, open CORS; 1,400+ perfumes, 400+ raw materials, 140+ houses; code samples in [Scento-com/perfume-api](https://github.com/Scento-com/perfume-api).
 - [ScentRev](https://mcp.scentrev.com) - REST access alongside its MCP server; key required, free during the current period at 300 calls a day; 126,000+ scents claimed.
 
 ## Datasets
@@ -43,7 +43,7 @@ Static files, not live APIs. Check each licence before use.
 - [Parfica](https://github.com/parfica/mcp-server-parfica) - Free keyless MCP with 3 tools (search, fragrance info with pyramid and accords, dupes), Ukrainian-first, MIT; in the official MCP Registry.
 - [Parfum Bible](https://parfumbible.com/developers/) - Free keyless MCP with 4 tools (search, details, compare, verified retailer offers), alongside its REST API; English.
 - [Perfume Picks](https://perfumepicks.app/mcp) - Free keyless MCP, 8 tools (pyramid, accords, community wear, curated dupes with match percentages, trending); remote or npm; 13,000+ perfumes claimed; in the official MCP Registry.
-- [Scento Perfume Compendium](https://www.scento.com/developers) - Remote MCP with 12 read-only tools, no key and no account, ten languages for links; 700+ perfumes, 400+ raw materials, 120+ houses; registry name `com.scento/perfume-compendium`; npm and PyPI bridges as `scento-perfume-compendium`.
+- [Scento Perfume API (MCP server)](https://www.scento.com/developers) - Remote MCP with 12 read-only tools over Scento's verified perfume database, no key and no account, ten languages for links; 1,400+ perfumes, 400+ raw materials, 140+ houses; registry name `com.scento/perfume-api`; npm and PyPI bridges as `scento-perfume-api` (also `perfume-mcp-server`, `perfume-database`); source [Scento-com/perfume-mcp-server](https://github.com/Scento-com/perfume-mcp-server).
 - [ScentRev](https://mcp.scentrev.com) - MCP with 22 tools (longevity, sillage, season, accords, similar, wardrobe); OAuth or Bearer key, free at 300 calls a day; 126,000+ scents claimed.
 - [ScentVerdict](https://scentverdict.com/connect) - Free keyless MCP with 6 tools (verdict, notes, similarity, live bottle prices from retailers); English; 31,000+ to 47,000+ perfumes claimed (its pages differ); in the official MCP Registry.
 
