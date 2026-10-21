@@ -33,6 +33,7 @@ Static files, not live APIs. Check each licence before use.
 
 - [FragDB fragrance-database](https://github.com/FragDB/fragrance-database) - Open sample and specification of the FragDB files on GitHub; licence listed as NOASSERTION / CC BY-NC.
 - [Fragrantica Perfumes (Kaggle)](https://www.kaggle.com/datasets/ledecanteur/fragrantica-perfumes) - Community-published CSV and JSONL of Fragrantica data with ratings, notes, accords and perfumers; 140,228 perfumes stated; CC BY-NC-SA 4.0; scraped, unofficial.
+- [Scento Perfume Database](https://github.com/Scento-com/perfume-dataset) - Open CSV and JSONL export of Scento's verified perfume database (1,320 perfumes, 137 houses, 404 raw materials, each row linked to its scento.com page); CC BY 4.0; also on [Hugging Face](https://huggingface.co/datasets/scento/perfume-database); live access via the [Scento Perfume API](https://www.scento.com/developers).
 - [TidyTuesday Parfumo dataset](https://github.com/rfordatascience/tidytuesday/tree/main/data/2024/2024-12-10) - Parfumo ratings, notes, perfumers and release years as a CSV for data-analysis practice (week of 10 Dec 2024).
 
 ## MCP servers
